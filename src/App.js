@@ -1,5 +1,4 @@
 import React, { Component } from "react";
-// import S from "./index.css";
 
 import FeedbackOptions from "./components/FeedbackOptions/FeedbackOptions";
 import Notification from "./components/Notification/Notification";
