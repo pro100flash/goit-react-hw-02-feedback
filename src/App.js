@@ -7,7 +7,7 @@ import Statistic from "./components/Statistic/Statistic";
 class App extends Component {
   state = {
     good: 0,
-    Neutral: 0,
+    neutral: 0,
     bad: 0,
   };
 
