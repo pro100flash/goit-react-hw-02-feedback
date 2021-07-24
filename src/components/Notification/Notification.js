@@ -6,7 +6,7 @@ const Notification = ({ message }) => (
   <p className={S.notification}>{message}</p>
 );
 
-Notification.protoTypes = {
+Notification.propTypes = {
   message: PropTypes.string.isRequired,
 };
 

@@ -1,5 +1,4 @@
 import React, { Component } from "react";
-
 import FeedbackOptions from "./components/FeedbackOptions/FeedbackOptions";
 import Notification from "./components/Notification/Notification";
 import Section from "./components/Section/Section";
@@ -17,7 +16,8 @@ class App extends Component {
     this.setState((state) => ({ ...state, [name]: this.state[name] + 1 }));
   };
 
-  countTotalFeedback = () => this.state.good + this.state.bad;
+  countTotalFeedback = () =>
+    this.state.good + this.state.bad + this.state.neutral;
 
   countPositiveFeedbackPercentage = () =>
     this.state.good
